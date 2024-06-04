@@ -2,7 +2,8 @@
 
 ## Project Overview
 
-This project aims to predict the likelihood of employee attrition in a company using [IBM HR Dataset]([https://ughrima.github.io/](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)). By leveraging advanced classification techniques and feature engineering, the goal is to build a model that can accurately identify employees who are likely to leave the company.
+This project aims to predict the likelihood of employee attrition in a company using IBM HR Dataset ([link](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)).
+By leveraging advanced classification techniques and feature engineering, the goal is to build a model that can accurately identify employees who are likely to leave the company.
 
 ## Technologies Used
 
@@ -11,6 +12,7 @@ This project aims to predict the likelihood of employee attrition in a company u
 - Scikit-learn
 - Matplotlib
 - Seaborn
+- Numpy
 
 ## Project Structure
 
@@ -35,29 +37,27 @@ Open the `preprocessing.ipynb` notebook and execute the cells to preprocess the 
 - **Feature Relationship Analysis**: Plotting graphs to see the relationship between features and the target variable.
 - **Data Encoding**: Encoding categorical features to convert them into numerical values to ensure model accuracy.
 - Handling missing values.
-- Scaling numerical features.
 
-### 2. Model Training
+### 2. Model Training & Testng
 
 Open the `train.ipynb` notebook and execute the cells to train and evaluate the models. This step involves:
 - Splitting the data into training and testing sets.
-- Building and evaluating classification models:
+- Building and comparing classification models:
   - Logistic Regression
   - Decision Tree
   - K-Nearest Neighbors (KNN)
   - Support Vector Machine (SVM)
   - Random Forest
   - Naive Bayes
-- **Observations**:
-  - Random Forest and Logistic Regression were the best performing models.
-  - Random Forest had the highest accuracy but tended to overfit the data.
-  - Logistic Regression provided a good balance of accuracy without overfitting.
-- Hyperparameter tuning to optimize the model.
+- Features and their contribution.
+- Saving and Testing Model
+  
 
 ## Results
-
-The model evaluation metrics and visualizations will be generated in the `train.ipynb` notebook. These results help in understanding the performance of the models and identifying the best performing model.
-
+  - Random Forest and Logistic Regression were the best performing models.
+  - Random Forest had the highest accuracy but tended to overfit the data.
+  - Logistic Regression was chosen as it provided a good balance of accuracy without overfitting.
+    
 ## Future Work
 
 - Collect more data to enhance model robustness.
