@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project aims to predict the likelihood of employee attrition in a company using HR data. By leveraging advanced classification techniques and feature engineering, the goal is to build a model that can accurately identify employees who are likely to leave the company.
+This project aims to predict the likelihood of employee attrition in a company using [IBM HR Dataset]([https://ughrima.github.io/](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)). By leveraging advanced classification techniques and feature engineering, the goal is to build a model that can accurately identify employees who are likely to leave the company.
 
 ## Technologies Used
 
