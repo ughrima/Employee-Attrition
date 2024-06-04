@@ -1,5 +1,3 @@
-# CodeClause-Internship_Emp-Attrition
-
 # Employee Attrition Prediction
 
 ## Project Overview
